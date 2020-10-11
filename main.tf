@@ -18,7 +18,7 @@ resource "aws_security_group" "acesso_ssh" {
   description = "acesso_ssh"
 
   ingress {
-    description = "TLS from VPC"
+    description = "ssh"
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
